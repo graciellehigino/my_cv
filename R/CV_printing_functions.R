@@ -53,10 +53,10 @@ create_CV_object <-  function(data_location,
   } else {
     # Want to go old-school with csvs?
     
-    cv$entries_data <- readr::read_csv(paste0(data_location, "entries.csv"), skip = 1, locale = readr::locale(encoding = "windows-1252"))
-    cv$skills       <- readr::read_csv(paste0(data_location, "language_skills.csv"), skip = 1, locale = readr::locale(encoding = "windows-1252"))
-    cv$text_blocks  <- readr::read_csv(paste0(data_location, "text_blocks.csv"), skip = 1, locale = readr::locale(encoding = "windows-1252"))
-    cv$contact_info <- readr::read_csv(paste0(data_location, "contact_info.csv"), skip = 1, locale = readr::locale(encoding = "windows-1252"))
+    cv$entries_data <- readr::read_csv(paste0(data_location, "entries.csv"), skip = 1, locale = readr::locale(encoding = "UTF-8"))
+    cv$skills       <- readr::read_csv(paste0(data_location, "language_skills.csv"), skip = 1, locale = readr::locale(encoding = "UTF-8"))
+    cv$text_blocks  <- readr::read_csv(paste0(data_location, "text_blocks.csv"), skip = 1, locale = readr::locale(encoding = "UTF-8"))
+    cv$contact_info <- readr::read_csv(paste0(data_location, "contact_info.csv"), skip = 1, locale = readr::locale(encoding = "UTF-8"))
     }
 
   # This year is assigned to the end date of "current" events to make sure they get sorted later.
