@@ -17,7 +17,7 @@
 #'   is the sheet publicly available? (Makes authorization easier.)
 #' @return A new `CV_Printer` object.
 create_CV_object <-  function(data_location,
-                              pdf_mode = FALSE,
+                              pdf_mode = TRUE,
                               html_location,
                               pdf_location,
                               sheet_is_publicly_readable = TRUE) {
@@ -53,10 +53,10 @@ create_CV_object <-  function(data_location,
   } else {
     # Want to go old-school with csvs?
     
-    cv$entries_data <- readr::read_csv(paste0(data_location, "entries.csv"), skip = 1, locale = readr::locale(encoding = "UTF-8"))
-    cv$skills       <- readr::read_csv(paste0(data_location, "language_skills.csv"), skip = 1, locale = readr::locale(encoding = "UTF-8"))
-    cv$text_blocks  <- readr::read_csv(paste0(data_location, "text_blocks.csv"), skip = 1, locale = readr::locale(encoding = "UTF-8"))
-    cv$contact_info <- readr::read_csv(paste0(data_location, "contact_info.csv"), skip = 1, locale = readr::locale(encoding = "UTF-8"))
+    cv$entries_data <- readr::read_csv(paste0(data_location, "entries.csv"), skip = 1, locale = readr::locale(encoding = "windows-1252"))
+    cv$skills       <- readr::read_csv(paste0(data_location, "language_skills.csv"), skip = 1, locale = readr::locale(encoding = "windows-1252"))
+    cv$text_blocks  <- readr::read_csv(paste0(data_location, "text_blocks.csv"), skip = 1, locale = readr::locale(encoding = "windows-1252"))
+    cv$contact_info <- readr::read_csv(paste0(data_location, "contact_info.csv"), skip = 1, locale = readr::locale(encoding = "windows-1252"))
     }
 
   # This year is assigned to the end date of "current" events to make sure they get sorted later.
@@ -228,11 +228,7 @@ print_contact_info <- function(cv){
 #' @description Small addendum that links to pdf version of CV if currently HTML and HTML if currently PDF.
 print_link_to_other_format <- function(cv){
   # When in export mode the little dots are unaligned, so fix that.
-  if(cv$pdf_mode) {
-    print(glue::glue("View this CV online with links at {cv$html_location}"))
-  } else {
     print(glue::glue("[<i class='fas fa-download'></i> Download a PDF of this CV]({cv$pdf_location})"))
-  }
 
   invisible(cv)
 }

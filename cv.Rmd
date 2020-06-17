@@ -50,9 +50,6 @@ Aside
 ```
 
 
-```{r}
-CV %>% print_link_to_other_format()
-```
 
 Contact {#contact}
 --------------------------------------------------------------------------------
@@ -76,7 +73,7 @@ Languages
 **Portuguese**<span style="font-size:11px;"> Native</span><br>
 **English**<span style="font-size:11px;"> Advanced</span><br>
 **French**<span style="font-size:11px;"> Intermediate</span><br>
-**Spanish**<span style="font-size:11px;"> Basic</span><br>
+**Spanish**<span style="font-size:11px;"> Intermediate</span><br>
 
 
 Disclaimer {#disclaimer}
