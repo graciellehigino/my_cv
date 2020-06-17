@@ -1,0 +1,7 @@
+Id of contact section,Icon used from font-awesome 4 to label this contact section,The actual value written for the contact entry
+loc,icon,contact
+email,envelope,[Email](gracielle.teixeira.higino@umontreal.ca)
+twitter,twitter,[GracielleHigino](https://twitter.com/graciellehigino)
+github,github,[GitHub](github.com/graciellehigino)
+website,link,[Website](graciellehigino.github.io/)
+orcid,file-pdf-o,[0000-0003-2791-8383](https://orcid.org/0000-0003-2791-8383)
