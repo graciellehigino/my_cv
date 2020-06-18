@@ -80,7 +80,7 @@ Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
 Made with [**pagedown**](https://github.com/rstudio/pagedown).  
-[Source code](https://github.com/graciellehigino/cv).  
+[Source code](https://github.com/graciellehigino/my_cv).  
 Last updated on `r Sys.Date()`.  
 
 
