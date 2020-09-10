@@ -1,28 +1,35 @@
 Where in your CV this entry belongs,Main title of the entry,Location the entry occured,Primary institution affiliation for entry,Start date of entry (year),"End year of entry. Set to ""current"" if entry is still ongoing.","Each description column is a separate bullet point for the entry. If you need more description bullet points simply add a new column with title ""description_{4,5,..}""",,,A filter variable that is used to decide if entry is in the smaller resume. 
 section,title,loc,institution,start,end,description_1,description_2,description_3,in_resume
-education,"PhD. Candidate, Ecology and Evolution",Brazil / Canada,Universidade Federal de Goiás / Université de Montréal,2017,2020,Macroecology of ecological interactions,CAPES and NSERC CREATE BIOS2 fellow,,TRUE
-education,MSc. Tropical Biodiversity and Conservation,"Maceió, Brazil",Universidade Federal de Alagoas,2014,2016,Macroecological and scientometric analyses of biodiversity gradients,CAPES fellow,,TRUE
-education,BSc. Biological Sciences,"Maceió, Brazil",Universidade Federal de Alagoas,2008,2012,Androchromatism evolution in odonate genera Ischnura,,,FALSE
-research_positions,Biologist,"Maceió, Brazil",Instituto do Meio Ambiente Herbarium,2016,2016,Curatorship and administrative assistant,,,FALSE
-teaching_positions,BIOS2/IGNITE SciComm training,online,BIOS2/IGNITE,2020,2020,"Basics of SciComm, blog posts and Twitter",,,TRUE
-teaching_positions,Data Driven Ecological Synthesis Summer School,online,Université de Montréal,2020,2020,Teacher Assistant,"Project management, storytelling with data, mentoring",,TRUE
+education,"PhD. Candidate, Ecology and Evolution",Brazil / Canada,Universidade Federal de Goiás / Université de Montréal,2017,current,Macroecology of ecological interactions,CAPES and NSERC CREATE BIOS2 fellow,"Project requires skills in data management, API, correlational models, predictive mathematical models, data visualization, reproducibility and good writing.",TRUE
+education,MSc. Tropical Biodiversity and Conservation,"Maceió, Brazil",Universidade Federal de Alagoas,2014,2016,Macroecological and scientometric analyses of biodiversity gradients,CAPES fellow,"Project required skills in GIS, biodiversity data scrapping and management, correlational and spatial models, data visualization and writing.",TRUE
+education,BSc. Biological Sciences,"Maceió, Brazil",Universidade Federal de Alagoas,2008,2012,Androchromatism evolution in odonate genera Ischnura,,"Project required skills in statistics, data mining and writing.",FALSE
+research_positions,Biologist,"Maceió, Brazil",Instituto do Meio Ambiente Herbarium,,2016,Curatorship and administrative assistant,,"Position required project management skills, collaborative tools, organization system development for exsiccates and techincal report writing.",FALSE
+research_positions,Biologist,"Salvador, Brazil",Universidade Federal da Bahia,2012,2014,Microbiology technician at a public veterinary hospital,,"Responsible for antibiograms, data management and inventory control.",FALSE
+teaching_positions,BIOS2/IGNITE SciComm training,online,BIOS2/IGNITE,,2020,"Basics of SciComm, blog posts and Twitter",,,TRUE
+teaching_positions,Data Driven Ecological Synthesis Summer School,online,Université de Montréal,,2020,Teacher Assistant,"Project management, storytelling with data, mentoring",,TRUE
 teaching_positions,Data Trek,"Montréal, Canada",IVADO/AÉBINUM/PoisotLab,2019,2020,"Project management, programming logic with Julia, data wrangling with Julia, git and version control",,,TRUE
-teaching_positions,Population Ecology,"Goiânia, Brazil",Universidade Federal de Goiás,2019,2019,Teacher Assistant,Population dynamics models,,TRUE
-teaching_positions,Julia CluBR,"Goiânia and Maceió, Brazil",,2019,2019,"Julia syntax, data wrangling and visualization",,,TRUE
+teaching_positions,Population Ecology,"Goiânia, Brazil",Universidade Federal de Goiás,,2019,Teacher Assistant,Population dynamics models,,TRUE
+teaching_positions,Julia CluBR,"Goiânia and Maceió, Brazil",,,2019,"Julia syntax, data wrangling and visualization",,,TRUE
 teaching_positions,IGNITE instructor,Brazil / Canada,IGNITE,2018,current,Co-leader and instructor of the IGNITE SciComm trainings,"Basics of SciComm, written communication, open air activities, project management, inclusion and accessibility",,TRUE
-teaching_positions,Fundamentals of Ecology and Evolution,"Maceió, Brazil",Universidade Federal de Alagoas,2015,2015,Teacher Assistant,"Niche, competition",,TRUE
-teaching_positions,Mathematical Biology,"Maceió, Brazil",Universidade Federal de Alagoas,2015,2015,Teacher Assistant,Science communication with data,,TRUE
+teaching_positions,Fundamentals of Ecology and Evolution,"Maceió, Brazil",Universidade Federal de Alagoas,,2015,Teacher Assistant,"Niche, competition",,TRUE
+teaching_positions,Mathematical Biology,"Maceió, Brazil",Universidade Federal de Alagoas,,2015,Teacher Assistant,Science communication with data,,TRUE
 teaching_positions,Biological Evolution Study Group,"Maceió, Brazil",,2014,2016,"Microevolution (4h course), basic concepts in Evolution (8h course)",,,FALSE
-training,Mozilla Open Leaders,online,Mozilla Foundation,2018,2018,Leadership of open projects,Development of IGNITE SciComm training,,TRUE
-training,Introduction à la ligne de commande Bash,"Montréal, Canada",Calcul Québec,2020,2020,,,,FALSE
-training,VII Southern-Summer School on Mathematical Biology,"São Paulo, Brazil",International Centre of Theoretical Physics,2018,2018,,,,TRUE
-training,School on Mathematical Models of Evolution,"São Paulo, Brazil",International Centre of Theoretical Physics,2019,2019,,,,FALSE
-training,VIII Southern-Summer School on Mathematical Biology,"São Paulo, Brazil",International Centre of Theoretical Physics,2019,2019,,,,FALSE
+training,Mozilla Open Leaders,online,Mozilla Foundation,,2018,Leadership of open projects,Development of IGNITE SciComm training,,TRUE
+training,Introduction à la ligne de commande Bash,"Montréal, Canada",Calcul Québec,,2020,,,,FALSE
+training,VII Southern-Summer School on Mathematical Biology,"São Paulo, Brazil",International Centre of Theoretical Physics,,2018,,,,TRUE
+training,School on Mathematical Models of Evolution,"São Paulo, Brazil",International Centre of Theoretical Physics,,2019,,,,FALSE
+training,VIII Southern-Summer School on Mathematical Biology,"São Paulo, Brazil",International Centre of Theoretical Physics,,2019,,,,FALSE
+training,Nettoyage et valorisation des données avec OpenRefine,"Montréal, Canada",Calcul Québec,,2020,,,,TRUE
 academic_articles,Mapping and understanding the digital biodiversity knowledge about vertebrates in the Atlantic Rainforest,,,,2020,"Assessment of the inventory incompleteness for the Atlantic Rainforest biodiversity data, concerning amphibians, birds, mammals and reptiles.",https://ecoevorxiv.org/c63vj/,In review,TRUE
-academic_articles,Data bias in the Atlantic Rainforest: uncovering the elephant in the room,"Montréal, Canada",Québec Centre for Biodiversity Science,,2020,,,,
-academic_articles,Islands of biodiversity digital knowledge on the Atlantic Rainforest and the environmental variables behind them,"Belfast, UK",British Ecological Society Annual Meeting,2019,2019,,,,
-academic_articles,"Science Communication, empathy and everyday resistance","São João Del-Rei, Brazil",Universidade Federal de São João Del-Rei,,2018,The importance of empathy in Science Communication in difficult political contexts,,,
-academic_articles,Women in Science: a Jurassic challenge,"Goiânia, Brazil",Universidade Federal de Goiás,,2018,Challenges women face in the science career,,,
-academic_articles,Como nossos pais,"Goiânia, Brazil",Universidade Federal de Goiás,,2018,Old and new strategies in Science Communication,,,
-academic_articles,Ecology and Evolution: a love story better than Twilight,"Maceió, Brazil",II Encontro Alagoano de Evolução,,2018,History of Quantitative Ecology and its relation with Evolution,,,
-academic_articles,"How ""open"" is your science?","Viçosa, Brazil",XIII Congresso de Ecologia do Brasil / III International Symposium of Ecology and Evolution,,2017,The role of science communication in the open science movement,,,
+academic_articles,Data bias in the Atlantic Rainforest: uncovering the elephant in the room,"Montréal, Canada",Québec Centre for Biodiversity Science,,2020,,,,FALSE
+academic_articles,Islands of biodiversity digital knowledge on the Atlantic Rainforest and the environmental variables behind them,"Belfast, UK",British Ecological Society Annual Meeting,,2019,,,,TRUE
+academic_articles,"Science Communication, empathy and everyday resistance","São João Del-Rei, Brazil",Universidade Federal de São João Del-Rei,,2018,The importance of empathy in Science Communication in difficult political contexts,,,FALSE
+academic_articles,Women in Science: a Jurassic challenge,"Goiânia, Brazil",Universidade Federal de Goiás,,2018,Challenges women face in the science career,,,FALSE
+academic_articles,Como nossos pais,"Goiânia, Brazil",Universidade Federal de Goiás,,2018,Old and new strategies in Science Communication,,,FALSE
+academic_articles,Ecology and Evolution: a love story better than Twilight,"Maceió, Brazil",II Encontro Alagoano de Evolução,,2018,History of Quantitative Ecology and its relation with Evolution,,,FALSE
+academic_articles,"How ""open"" is your science?","Viçosa, Brazil",XIII Congresso de Ecologia do Brasil / III International Symposium of Ecology and Evolution,,2017,The role of science communication in the open science movement,,,TRUE
+community,Skype A Scientist,Global,,2018,current,"Scientist invited to science classes all over the world. Representing Latin Women, First-Gen in science.",https://www.skypeascientist.com/,,TRUE
+community,Letters to a PreScientist,North America,,2020,current,Mentor Scientist corresponding with children in North America about science and research.,https://www.prescientist.org/,,TRUE
+community,IGNITE,,,2018,current,Co-leader and community manager of an open science communication training.,https://ignitescicomm.com/,,TRUE
+community,Julia CluBR,Brazil,,2019,2019,"Co-leader and instructor. Wrote funding project and reports, and coordinated community in two cities. Results presented at 2019 JuliaCon.",,,TRUE
+community,Mozilla Festival,Global,,2020,current,"2021 Festival Wrangler. Tasks include space coordination, application selection, writing CFP, supporting speakers during their sessions.",https://www.mozillafestival.org/,,TRUE

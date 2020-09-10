@@ -145,6 +145,20 @@ CV %<>% print_section('academic_articles')
 
 
 
+<br>
+<br>
+
+
+
+
+Community {data-icon=hands-helping}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('community')
+```
+
+
 ```{r}
 CV %<>% print_links()
 ```
